@@ -14,4 +14,4 @@ phases:
       - echo build
   post_build:
     commands:
-      - echo post-build
+      - echo post-buil
