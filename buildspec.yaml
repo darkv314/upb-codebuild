@@ -5,13 +5,13 @@ phases:
     runtime-versions:
       python: 3.7
     commands:
-      - echo install
+      - ./deployment.sh -b
   pre_build:
     commands:
-      - echo pre-build
+      - ./deployment.sh -p
   build:
     commands:
-      - echo build
+      - ./deployment.sh -d
   post_build:
     commands:
       - echo post-buil
