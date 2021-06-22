@@ -14,4 +14,4 @@ phases:
       - ./deployment.sh -d
   post_build:
     commands:
-      - echo post-bu
+      - echo post-b
